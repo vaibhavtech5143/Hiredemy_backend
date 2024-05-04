@@ -1,0 +1,19 @@
+{
+  "name": "hiredemy_backend",
+  "version": "1.0.0",
+  "description": "An Crud operation with different error handling for hiredmy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "zod": "^3.23.6"
+  }
+}

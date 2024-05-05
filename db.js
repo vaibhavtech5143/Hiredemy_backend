@@ -12,7 +12,9 @@ const pool = mysql.createPool({
   host: DB_HOST,
   user: DB_USER,
   password: DB_PASSWORD,
+
   database: DB_NAME, // Use the database name from environment variable
+  port:3306,
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0

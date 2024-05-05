@@ -4,7 +4,9 @@
   "description": "An Crud operation with different error handling for hiredmy",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon ./app.js"
+    "dev": "nodemon ./app.js",
+    "build": "echo 'No build necessary for Node.js apps'",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",

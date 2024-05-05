@@ -55,6 +55,28 @@ GET https://hiredemybackend-production.up.railway.app/assistant/3
 GET https://hiredemy-backend.onrender.com/assistant/3
 
 
+
+
+## Using the Postman Collection
+
+1. **Download and install Postman:**  
+   If you haven't already, download and install [Postman](https://www.postman.com/downloads/).
+
+2. **Download the provided Postman collection file:**  
+   You can download the provided Postman collection file from [this link](https://drive.google.com/file/d/1UtbdLP76ui9Nxg0BTLaq9LXtvTV2YQCD/view?usp=sharing).
+
+3. **Import the downloaded collection file into Postman:**  
+   After downloading the collection file, import it into Postman. You can do this by clicking on the "Import" button in Postman and selecting the downloaded file from your local directory.
+
+4. **Adjust any necessary environment variables or headers:**  
+   After importing the collection, review the environment variables or headers to ensure they are configured correctly for your local setup. Modify any values as needed to match your environment.
+
+5. **Start making requests:**  
+   Once you've imported the collection and configured any necessary variables, you can start making requests to the endpoints provided in the collection. Simply select a request from the collection, click "Send", and observe the response.
+
+
+
+
 ## API Reference
 
 #### Get Specific assistant data
@@ -111,7 +133,7 @@ GET https://hiredemy-backend.onrender.com/assistant/3
   DELETE /assistant/{id}
 
   DELETE https://hiredemybackend-production.up.railway.app/assistant/3
-  
+
   DELETE https://hiredemy-backend.onrender.com/assistant/3
 ```
 

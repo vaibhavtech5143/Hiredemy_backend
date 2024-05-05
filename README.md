@@ -50,6 +50,8 @@ It is hosted on render and railway, ypu can use any of it  due to this it might 
 Railway server would be faster than render ,try first railway server.
 
 GET https://hiredemybackend-production.up.railway.app/assistant/3
+
+
 GET https://hiredemy-backend.onrender.com/assistant/3
 
 
@@ -60,6 +62,9 @@ GET https://hiredemy-backend.onrender.com/assistant/3
 
 ```http
   GET /assistant/{id}
+
+  GET https://hiredemybackend-production.up.railway.app/assistant/3
+
   GET https://hiredemy-backend.onrender.com/assistant/1
 ```
 
@@ -72,6 +77,9 @@ GET https://hiredemy-backend.onrender.com/assistant/3
 
 ```http
   POST /assistant
+
+  POST https://hiredemybackend-production.up.railway.app/assistant/
+
   POST https://hiredemy-backend.onrender.com/assistant/
 ```
 
@@ -89,6 +97,9 @@ GET https://hiredemy-backend.onrender.com/assistant/3
 
 ```http
   PUT /assistant/{id}
+
+  PUT https://hiredemybackend-production.up.railway.app/assistant/3
+
   PUT https://hiredemy-backend.onrender.com/assistant/1
 ```
 
@@ -98,6 +109,9 @@ GET https://hiredemy-backend.onrender.com/assistant/3
 
 ```http
   DELETE /assistant/{id}
+
+  DELETE https://hiredemybackend-production.up.railway.app/assistant/3
+  
   DELETE https://hiredemy-backend.onrender.com/assistant/3
 ```
 

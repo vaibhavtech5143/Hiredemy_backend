@@ -45,8 +45,11 @@ Start the server
 
 ## Demo
 
-It is hosted on render due to this it might take some time at first request, make first request it would take about 2 to 4 minutes but after that it will work flawlessly
+It is hosted on render and railway, ypu can use any of it  due to this it might take some time at first request, make first request it would take about 2 to 4 minutes but after that it will work flawlessly
 
+Railway server would be faster than render ,try first railway server.
+
+GET https://hiredemybackend-production.up.railway.app/assistant/3
 GET https://hiredemy-backend.onrender.com/assistant/3
 
 
